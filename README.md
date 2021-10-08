@@ -1,1 +1,1 @@
-Fully functional messanger app made in flutter
+Fully functional messenger app made in flutter
