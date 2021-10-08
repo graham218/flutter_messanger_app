@@ -1,1 +1,1 @@
-# kotlin_messanger_app
+Fully functional messanger app made in flutter
