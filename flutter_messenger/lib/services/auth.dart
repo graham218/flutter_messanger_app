@@ -22,5 +22,7 @@ class AuthMethods{
       idToken: googleSignInAuthentication.idToken,
       accessToken: googleSignInAuthentication.accessToken
     );
+    
+    UserCredential result= await _firebaseAuth.signInWithCredential(credential);
   }
 }
