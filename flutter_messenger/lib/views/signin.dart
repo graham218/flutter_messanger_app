@@ -11,7 +11,7 @@ class _SignINState extends State<SignIN> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      appBar: AppBar(title: Text("Messenger App"),),
     );
   }
 }
