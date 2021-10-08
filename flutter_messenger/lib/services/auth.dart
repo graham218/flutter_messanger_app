@@ -24,5 +24,10 @@ class AuthMethods{
     );
     
     UserCredential result= await _firebaseAuth.signInWithCredential(credential);
+    User? userDetails=result.user;
+
+    if(result!=null){
+
+    }
   }
 }
