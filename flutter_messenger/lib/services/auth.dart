@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_messenger/helperfunctions/sharedpref_helper.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class AuthMethods{
@@ -27,7 +28,7 @@ class AuthMethods{
     User? userDetails=result.user;
 
     if(result!=null){
-
+      //SharedPreferenceHelper().saveUserEmail(userDetails.email);
     }
   }
 }
