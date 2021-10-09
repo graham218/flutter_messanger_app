@@ -32,4 +32,11 @@ class SharedPreferenceHelper{
     SharedPreferences prefs=await SharedPreferences.getInstance();
     return prefs.setString(userProfileKey, getUserProfileKey);
   }
+
+
+  //get data
+  Future<String?> getUserName() async{
+    SharedPreferences prefs=await SharedPreferences.getInstance();
+    return prefs.getString(userNameKey);
+  }
 }
